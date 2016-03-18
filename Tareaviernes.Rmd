@@ -2,7 +2,9 @@
 title: "Actividad tarea."
 author: "Eduardo Castro T."
 date: "March 18, 2016"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ##Introducción##
@@ -15,8 +17,7 @@ Como primer paso es necesario descargar el archivo que contiene los datos desde 
 
 Posteriormente debemos cargar los datos en el ambiente de RStudio.
 
-```{r, echo=TRUE}
-
+```{r}
 pasos=read.csv("activity.csv")
 ```
 
